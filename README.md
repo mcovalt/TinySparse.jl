@@ -1,4 +1,7 @@
 # TinySparse.jl
+
+[![Build Status](https://travis-ci.org/mcovalt/TinySparse.jl.svg?branch=master)](https://travis-ci.org/mcovalt/TinySparse.jl)
+
 `TinySparse.jl` is a Julia package for further compressing sparse matrices. Operations on `TinySparseMat`'s are deferred until the matrix operates on a vector (see [LinearMaps.jl](https://github.com/Jutho/LinearMaps.jl)).
 
 ## Requirements
