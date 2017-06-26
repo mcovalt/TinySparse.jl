@@ -5,7 +5,7 @@
 `TinySparse.jl` is a Julia package for further compressing sparse matrices. Operations on `TinySparseMat`'s are deferred until the matrix operates on a vector (see [LinearMaps.jl](https://github.com/Jutho/LinearMaps.jl)).
 
 ## Requirements
-* Julia 0.4 and up
+* Julia 0.5 and up
 * GCC installed (Linux or macOS)
 * **Windows is unsupported at this time.**
 
