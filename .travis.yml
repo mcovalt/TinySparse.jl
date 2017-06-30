@@ -13,7 +13,7 @@ notifications:
 script:
 #  - if [[ -a .git/shallow ]]; then git fetch --unshallow; fi
   - julia -e 'Pkg.clone(pwd())'
-  - julia -e 'Pkg.test("TinyInt",coverage=true)'
+  - julia -e 'Pkg.test("TinySparse",coverage=true)'
 after_success:
   - julia -e 'cd(Pkg.dir("TinySparse")); include(joinpath("docs", "make.jl"))'
   - julia -e 'cd(Pkg.dir("TinySparse")); Pkg.add("Coverage"); using Coverage; Codecov.submit(Codecov.process_folder())'
