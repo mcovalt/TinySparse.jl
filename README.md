@@ -11,7 +11,7 @@
 
 ## Instalation
 ```julia
-julia> Pkg.clone("https://github.com/mcovalt/TinySparse.jl.git")
+julia> Pkg.add("TinySpare")
 julia> Pkg.test("TinySparse")
 ```
 
