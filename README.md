@@ -11,7 +11,7 @@
 
 ## Instalation
 ```julia
-julia> Pkg.add("TinySpare")
+julia> Pkg.add("TinySparse")
 julia> Pkg.test("TinySparse")
 ```
 
